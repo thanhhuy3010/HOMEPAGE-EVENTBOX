@@ -9,26 +9,28 @@ const SubNavbar = () => (
         padding: '0 15px',
         height: '70px',
         background: '#4fc1e9',
-        color: '#fafafa', display: 'flex', justifyContent: 'space-between'
+        color: '#fafafa', display: 'flex', justifyContent: 'space-between',
+
       }}>
-      <Col span={12}>
+      <Col xl={12}>
         <div className="LoGo">
           <img src="./images/logo-vlu-8.png" width="140px" />
         </div>
       </Col>
-      <Col span={12}>
+      <Col xl={12}>
         <div className="navbar-collapse" >
           <Menu
-            theme="dark"
             mode="horizontal"
             defaultSelectedKeys={['1']}
             style={{ 
               lineHeight: '70px',
               background:'#4fc1e9',
-              fontWeight:'bold',
-              letterSpacing:'2px',
+              fontWeight:'700',
+              letterSpacing:'3px',
               fontSize: '18px',
-              marginLeft:'50px'
+              marginLeft:'50px',
+              color:'white',
+              borderBottom:'1px solid white'
           }}
           >
             <Menu.Item key="1">HOME</Menu.Item>

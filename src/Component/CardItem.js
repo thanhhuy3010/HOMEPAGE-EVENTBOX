@@ -28,7 +28,7 @@ class CardItem extends Component {
     console.log("render")
     return (
         
-          <Col span={6} >
+          <Col xl={6} >
             <Card
             hoverable
             className="myCard"

@@ -17,7 +17,7 @@ const events = [
         id: randomID(5,'aA0'),
         name: 'NEON-2018, LARISA',
         time: 'Thu, Dec 23 | C001 VLU University',
-        cover: './images/ITS.jpg'
+        cover: './images/GAMMA.jpg'
 
     },
     {
