@@ -21,6 +21,7 @@ code {
   height: 100%;
 }
 
+
 .carousel img {
   background-size: cover;
   background-attachment: fixed;
@@ -51,10 +52,14 @@ code {
   border: 2px solid #87d3ee;
   position: absolute;
   left: 610px;
+  
+  
+}
+
+.searchbar .title .find:hover{
   animation: findEvent 1.4s infinite;
   -webkit-animation: findEvent 1.4s infinite;
 
-  
 }
 
 @keyframes findEvent {

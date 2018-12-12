@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, Row, Col } from 'antd';
-//cách 1 import TripModal from './TripModal';
 import  '../index.css';
 const { Meta } = Card;
 
@@ -32,7 +31,7 @@ class CardItem extends Component {
             <Card
             hoverable
             className="myCard"
-            style={{ width: '300px',marginBottom:'30px' ,marginLeft:'40px' }}
+            style={{ marginBottom:'30px'  }}
             bordered={false}
             cover={<img alt="example" src= {event.cover} />}
           >

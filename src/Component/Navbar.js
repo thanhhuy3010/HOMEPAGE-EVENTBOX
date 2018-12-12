@@ -15,7 +15,7 @@ const Navbar = () => (
     <Header
         style={{ 
             height:'50px', 
-            background:'rgba(0, 0, 0, 0.8)', 
+            background:'#414345', 
             display:'flex',alignItems:'center', 
             justifyContent: 'space-between'}}
     >
@@ -25,8 +25,8 @@ const Navbar = () => (
             </a>
         </Dropdown>
         <div>
-            <Button style={{ borderRadius: 0, marginRight: '5px' }} type="primary">Create Event</Button>
-            <Button style={{ borderRadius: 0, marginRight: '5px' }} type="secondary">LOGIN</Button>
+            <Button  style={{borderRadius: 0,color:'white',border:'1px solid white',fontWeight:'700', marginRight: '5px', background: 'transparent' }}>Create Event</Button>
+            <Button style={{ borderRadius: 0,border:'none', marginRight: '5px',fontWeight:'700' }} type="secondary">LOGIN</Button>
         </div>
     </Header>
 

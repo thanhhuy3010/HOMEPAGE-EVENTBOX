@@ -15,16 +15,16 @@ const events = [
     },
     {
         id: randomID(5,'aA0'),
-        name: 'NEON-2018, LARISA',
+        name: 'GAMMA-2018, STAR',
         time: 'Thu, Dec 23 | C001 VLU University',
         cover: './images/GAMMA.jpg'
 
     },
     {
         id: randomID(5,'aA0'),
-        name: 'NEON-2018, LARISA',
-        time: 'Thu, Dec 23 | C001 VLU University',
-        cover: './images/ITS.jpg'
+        name: 'KIẾN VĂN - 2018 KHÁT',
+        time: 'Sun, Dec 09 | C002 VLU University',
+        cover: './images/KienVan.jpg'
 
     },
     {
